@@ -21,7 +21,7 @@ SESSION = getenv("SESSION", "AgGfBwsAHqZ_ggDJ04V75kZ4-yaXlurI0udMj6rWqqF2M6ZQyaE
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kasbinxeyallari1")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ATO_RESMl")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5637445914").split()))
 
 
 FAILED = "https://telegra.ph/file/9656bed2d9359c9675f52.jpg"
