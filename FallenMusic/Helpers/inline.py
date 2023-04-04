@@ -27,16 +27,16 @@ pm_buttons = [
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="🖤🦁 Bot Əmrləri", callback_data="fallen_help")],
+    [InlineKeyboardButton(text="🌐 Necə İstifadə Edilir? Komandalar Menyu", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="📢 Kanal", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="✅ Rəsmi Kanal", url="https://t.me/ATO_RESMl"
+            text="🌏 Rəsmi Kanal", url="https://t.me/ATO_RESMl"
         ),
-        InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🔥 Bot Sahibi", user_id=config.OWNER_ID),
     ],
 ]
 
