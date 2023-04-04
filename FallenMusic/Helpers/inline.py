@@ -69,7 +69,7 @@ helpmenu = [
         )
     ],
     [
-        InlineKeyboardButton(text="👥 Sudo Əmrləri", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="⭐️ Sudo Əmrləri", callback_data="fallen_cb sudo"),
         InlineKeyboardButton(text="♠️Sahib Əmrləri", callback_data="fallen_cb owner"),
     ],
     [
