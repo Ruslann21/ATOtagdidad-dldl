@@ -22,12 +22,12 @@ buttons = InlineKeyboardMarkup(
 
 pm_buttons = [
     [
-        InlineKeyboardButton(
-            text="➕ Qrupa Əlavə Et ➕",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+        [InlineKeyboardButton(text="🌐 Necə İstifadə Edilir? Komandalar Menyu", callback_data="fallen_help")],
         )
     ],
-    [InlineKeyboardButton(text="🌐 Necə İstifadə Edilir? Komandalar Menyu", callback_data="fallen_help")],
+    InlineKeyboardButton(
+            text="➕ Qrupa Əlavə Et ➕",
+            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
     [
         InlineKeyboardButton(text="📢 Kanal", url=config.SUPPORT_CHANNEL),
         InlineKeyboardButton(text="💬 Söhbət Qrupu", url=config.SUPPORT_CHAT),
@@ -64,7 +64,7 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="️⚜️ Hərkəs Üçün Əmrlər",
+            text="️🌐 Necə İstifadə Edilir? Komandalar Menyun",
             callback_data="fallen_cb help",
         )
     ],
