@@ -56,7 +56,7 @@ gp_buttons = [
         InlineKeyboardButton(
             text="✅ Rəsmi Kanal", url="hhttps://t.me/ATO_RESMl"
         ),
-        InlineKeyboardButton(text="👨🏻‍💻 Bot Sahibi", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="♣️Bot Sahibi", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -64,13 +64,13 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="🕹️ Hərkəs Üçün Əmrlər",
+            text="️⚜️ Hərkəs Üçün Əmrlər",
             callback_data="fallen_cb help",
         )
     ],
     [
         InlineKeyboardButton(text="👥 Sudo Əmrləri", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="👨🏻‍💻 Sahib Əmrləri", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="♠️Sahib Əmrləri", callback_data="fallen_cb owner"),
     ],
     [
         InlineKeyboardButton(text="🔙 Geri", callback_data="fallen_home"),
