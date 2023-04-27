@@ -5,13 +5,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "27199243"))
-API_HASH = getenv("API_HASH", "0e30888407241b7436e460f0361b021c")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5586550312:AAGbeld23hdwnsEBu7QgBP6bY2ZaHFjJCRw")
+BOT_TOKEN = getenv("BOT_TOKEN", " ")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5637445914"))
+OWNER_ID = int(getenv("OWNER_ID", " "))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/9656bed2d9359c9675f52.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/9656bed2d9359c9675f52.jpg")
