@@ -5,18 +5,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "22007754"))
+API_HASH = getenv("API_HASH", "7f0d6b4d928155eda014acdb5a014620")
 
-BOT_TOKEN = getenv("BOT_TOKEN", " ")
+BOT_TOKEN = getenv("BOT_TOKEN", "6195626321:AAEdQkOcqe6OIQxwRVFiigXn3f-HvQcmjM8")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", " "))
+OWNER_ID = int(getenv("OWNER_ID", "5539983698"))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/9656bed2d9359c9675f52.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/9656bed2d9359c9675f52.jpg")
 
-SESSION = getenv("SESSION", "AgGfBwsAbzYp3-ngXz2hEdJAZ5Afz90dHa3_vEDk07GhBpkDDQF0jCiZmHRr8D_iPWCqTBG7jj6YkprP6dSuGAXH1WgQSP8C8ZpGa5x8z4I3WsMzXStoRap-YLgd1Qa0mXkRIFNOKEz_1_-ZILRwubgzTc4mKOji2uPGFTgUD3mju3GL2WVAgBecC_uI1i-yjo_ziJ8Z7JVfJAYK0mBWDpJKWjZ1qFSgOkwGwbOWfnAvbl2WW3IQW_QJGbs1MQc8iofOvQ9WQZUwLR211hrRLnDOhNNeK9qsJfwqL_jjRDpmU4UMSs5z7Gho9DFy9dY36gYjeEwHMD0WWJCr6GrAyQQ_fnRpSQAAAAFYbzfsAA")
+SESSION = getenv("SESSION", "AgBsONl6wdGgTo_hj7wZXLZJZlMn9gXOjkePS7k8vow-8yJK2SAK7rHTmwXT91K9oIz66u_L0NkLkt7HqR3zImVXUtiCQsGeg_HGIkQrS0Q0A2B3GAyy6DKEqBXZz4tK7KV645TBv6ZfHnnFd1mCihHMW3cxaUVw9rv4DDFmnlFGU--gnOJtKG-QKdj9N9T4OxLJVKo46gewb1Ftx5iOQWX5BrqTA6osVDTuanfyKFF5hRE_V0IT2SGWpIYRUgdIB4jjx3pXKWytsJSLuRlgQNVzPwdh72cQ8Bnv3410Novd6rhBQAdlsusSX_NZyoTFeic9xfOLfc_RuquBKe-8DhuiAAAAAVzTqCsA")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kasbinxeyallari1")
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ATO_RESMl")
